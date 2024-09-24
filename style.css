@@ -1,0 +1,143 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+body {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(rgba(20, 26, 35,0.25),rgba(20, 26, 35, 0.25)), url("https://i.imgur.com/NAjYFrh.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Tahoma', 'sans-serif';
+}
+.head {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+header > p {
+  font-size: 20px;
+  font-style: bold;
+  margin: 0;
+  padding: 0px;
+}
+.contact {
+  margin: 0;
+  padding: 0px;
+  
+}
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  border: 2px solid slategray;
+  background: linear-gradient(rgba(20, 26, 35,0.35),rgba(20, 26, 35, 0.35)),  no-repeat center center fixed;
+}
+a {
+  width: 25%;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+p {
+  padding: 20px;
+  margin: 0px;
+}
+h1 {
+  color: black;
+  font-size: 23px;
+}
+b {
+  color: red;
+  font-size: 26px;
+}
+cite {
+  margin: 8px;
+}
+header {
+  margin: 0;
+  padding: 0px;
+}
+.body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+  max-width: 600px;
+  margin: 25vh auto;
+}
+.main {
+  margin: 2px;
+}
+#quote {
+  margin-bottom: 16px;
+}
+cite {
+  margin-top: 12px;
+}
+#btn {
+font-size:16px;
+margin: 8px;
+  color: honeydew;
+  font-style: bold;
+  width: 80px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn:hover {
+  scale: 1.04;
+box-shadow: 0px 0px 10px rgba(1, 84, 207, 0.25)
+}
+
+footer {
+  padding: 10px;
+  margin: 0;
+  color: lightgray;
+  height: calc(100px + 30%);
+  background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),  no-repeat center center fixed;
+}
+@media screen and (min-width: 481px) {
+  header {
+    height: 15vh;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  b {
+    font-size: 49px;
+  }
+  .body {
+    height: 80vh;
+  }
+}
+.socials{
+  padding: 10px;
+  background-color: #22222265;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 500px;
+}
+footer i{
+  margin: 10px;
+}
+.fa-facebook-f{
+  color: rgb(0, 0, 117);
+}
+.fa-facebook-f:hover{
+  color: blue;
+}
+.fa-instagram {
+  color: #af163c;
+}
+.fa-instagram:hover{
+  color:#f00640;
+}
